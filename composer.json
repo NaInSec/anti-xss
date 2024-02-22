@@ -1,0 +1,41 @@
+{
+  "name": "NaInSec/anti-xss",
+  "description": "anti xss-library",
+  "type": "library",
+  "keywords": [
+    "anti-xss",
+    "clean",
+    "security",
+    "xss"
+  ],
+  "homepage": "https://github.com/NaInSec/anti-xss",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NaInSec",
+      "homepage": "https://nainsec.pro.net/"
+    },
+    {
+      "name": "NATIONAL INDONESIA SECURITY",
+      "email": "master@nainsec.pro.net",
+      "homepage": "https://www.nainsec.pro.net/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "voku/portable-utf8": "~6.0.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "voku\\helper\\": "src/voku/helper/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "4.1.x-dev"
+    }
+  }
+}
