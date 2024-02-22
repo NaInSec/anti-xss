@@ -1,8 +1,8 @@
-# `AntiXSS`
+# AntiXSS
 
-### ``"Cross-site scripting (XSS) is a type of computer security vulnerability typically found in Web applications. XSS enables  attackers to inject client-side script into Web pages viewed by other users. A cross-site scripting vulnerability may be  used by attackers to bypass access controls such as the same origin policy. Cross-site scripting carried out on websites  accounted for roughly 84% of all security vulnerabilities documented by Symantec as of 2007." - http://en.wikipedia.org/wiki/Cross-site_scripting``
+### "Cross-site scripting (XSS) is a type of computer security vulnerability typically found in Web applications. XSS enables  attackers to inject client-side script into Web pages viewed by other users. A cross-site scripting vulnerability may be  used by attackers to bypass access controls such as the same origin policy. Cross-site scripting carried out on websites  accounted for roughly 84% of all security vulnerabilities documented by Symantec as of 2007." - http://en.wikipedia.org/wiki/Cross-site_scripting
 
-### ``NOTES:``
+### NOTES:
 * 1) Use [filter_input()](http://php.net/manual/de/function.filter-input.php) - don't use GLOBAL-Array (e.g. $_SESSION, $_GET, $_POST, $_SERVER) directly
 
 * 2) Use [html-sanitizer](https://github.com/tgalopin/html-sanitizer) or [HTML Purifier](http://htmlpurifier.org/) if you need a more configurable solution
